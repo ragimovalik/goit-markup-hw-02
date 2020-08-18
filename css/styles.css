@@ -23,6 +23,7 @@
 
 .body {
   background-color: var(--bgc-primary);
+  font-family: "Roboto", sans-serif;
 }
 
 li {
@@ -45,6 +46,7 @@ h3 {
 
 .logo-nav {
   color: #2196f3;
+  font-family: Raleway, sans-serif;
 }
 
 .logo-nav span {
@@ -88,6 +90,7 @@ h3 {
 
 .logo-footer {
   color: #2196f3;
+  font-family: Raleway, sans-serif;
 }
 
 .logo-footer span {
