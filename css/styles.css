@@ -40,6 +40,10 @@ h3 {
   color: var(--txt-nav-n-headings);
 }
 
+address {
+  font-style: normal;
+}
+
 .nav {
   background-color: var(--bgc-primary);
 }
