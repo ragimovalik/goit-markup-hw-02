@@ -3,20 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Портфолио</title>
   </head>
-  <body>
+  <body class="body">
     <!--Шапка - лого, навигация, контакты-->
     <header>
-      <nav>
-        <a href="WebStudio">WebStudio</a>
-        <ul>
-          <li><a href="Студия">Студия</a></li>
-          <li><a href="Портфолио">Портфолио</a></li>
+      <nav class="nav">
+        <a class="logo-nav" href="WebStudio">Web<span>Studio</span></a>
+        <ul class="nav-links">
+          <li><a href="./index.html">Студия</a></li>
+          <li><a href="./portfolio.html">Портфолио</a></li>
           <li><a href="Контакты">Контакты</a></li>
         </ul>
       </nav>
-      <ul>
+      <ul class="nav-address">
         <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
@@ -24,36 +25,41 @@
     <!-- Основная информация страницы -->
     <main>
       <!-- Список, фильтры по проектам -->
-      <section>
-        <ul>
-          <li><a>Все</a></li>
-          <li><a>Веб-сайты</a></li>
-          <li><a>Приложения</a></li>
-          <li><a>Дизайн</a></li>
-          <li><a>Маркетинг</a></li>
-        </ul>
-        <ul>
-          <li>
-            <img
+      <ul class="filter">
+        <li><button type="button">Все</button></li>
+        <li><button type="button">Веб-сайты</button></li>
+        <li><button type="button">Приложения</button></li>
+        <li><button type="button">Дизайн</button></li>
+        <li><button type="button">Маркетинг</button></li>
+      </ul>
+      <!-- Список проектов с картинками -->
+      <ul>
+        <li>
+          <a href=""
+            ><img
               src="./images/portfolio-page-1.jpg"
               alt="Технокряк"
               width="370"
               height="294"
             />
             <h3>Технокряк</h3>
-            <h4>Веб-сайт</h4>
-          </li>
-          <li>
-            <img
+            <p>Веб-сайт</p></a
+          >
+        </li>
+        <li>
+          <a href=""
+            ><img
               src="./images/portfolio-page-2.jpg"
               alt="Постер New Orlean vs Golden Star"
               width="370"
               height="294"
             />
             <h3>Постер New Orlean vs Golden Star</h3>
-            <h4>Дизайн</h4>
-          </li>
-          <li>
+            <p>Дизайн</p>
+          </a>
+        </li>
+        <li>
+          <a href="">
             <img
               src="./images/portfolio-page-3.jpg"
               alt="Ресторан Seafood"
@@ -61,9 +67,11 @@
               height="294"
             />
             <h3>Ресторан Seafood</h3>
-            <h4>Приложение</h4>
-          </li>
-          <li>
+            <p>Приложение</p>
+          </a>
+        </li>
+        <li>
+          <a href="">
             <img
               src="./images/portfolio-page-4.jpg"
               alt="Проект Prime"
@@ -71,9 +79,11 @@
               height="294"
             />
             <h3>Проект Prime</h3>
-            <h4>Маркетинг</h4>
-          </li>
-          <li>
+            <p>Маркетинг</p>
+          </a>
+        </li>
+        <li>
+          <a href="">
             <img
               src="./images/portfolio-page-5.jpg"
               alt="Проект Boxes"
@@ -81,9 +91,11 @@
               height="294"
             />
             <h3>Проект Boxes</h3>
-            <h4>Приложение</h4>
-          </li>
-          <li>
+            <p>Приложение</p>
+          </a>
+        </li>
+        <li>
+          <a href="">
             <img
               src="./images/portfolio-page-6.jpg"
               alt="Inspiration has no Borders"
@@ -91,9 +103,11 @@
               height="294"
             />
             <h3>Inspiration has no Borders</h3>
-            <h4>Веб-сайт</h4>
-          </li>
-          <li>
+            <p>Веб-сайт</p>
+          </a>
+        </li>
+        <li>
+          <a href="">
             <img
               src="./images/portfolio-page-7.jpg"
               alt="Издание Limited Edition"
@@ -101,9 +115,11 @@
               height="294"
             />
             <h3>Издание Limited Edition</h3>
-            <h4>Дизайн</h4>
-          </li>
-          <li>
+            <p>Дизайн</p>
+          </a>
+        </li>
+        <li>
+          <a href="">
             <img
               src="./images/portfolio-page-8.jpg"
               alt="Проект LAB"
@@ -111,9 +127,11 @@
               height="294"
             />
             <h3>Проект LAB</h3>
-            <h4>Маркетинг</h4>
-          </li>
-          <li>
+            <p>Маркетинг</p>
+          </a>
+        </li>
+        <li>
+          <a href="">
             <img
               src="./images/portfolio-page-9.jpg"
               alt="Growing Business"
@@ -121,17 +139,15 @@
               height="294"
             />
             <h3>Growing Business</h3>
-            <h4>Приложение</h4>
-          </li>
-        </ul>
-      </section>
-      <!-- Список проектов, картинки -->
-      <section></section>
+            <p>Приложение</p>
+          </a>
+        </li>
+      </ul>
     </main>
     <!--Подвал-->
-    <footer>
-      <a href="WebStudio">WebStudio</a>
-      <address>
+    <footer class="footer">
+      <a class="logo-footer" href="WebStudio">WebStudio</a>
+      <address class="footer-address">
         г. Киев, пр-т Леси Украинки, 26 <br />
         <a href="mailto:info@devstudio.com">info@devstudio.com</a> <br />
         <a href="tel:+380961111111">+38 096 111 11 11</a>
