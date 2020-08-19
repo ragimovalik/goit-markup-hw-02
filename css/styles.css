@@ -23,7 +23,14 @@
 
 .body {
   background-color: var(--bgc-primary);
+
   font-family: "Roboto", sans-serif;
+  font-style: normal;
+  letter-spacing: 0.03em;
+}
+
+a {
+  text-decoration: none;
 }
 
 li {
@@ -50,6 +57,7 @@ address {
 
 .logo-nav {
   color: #2196f3;
+
   font-family: Raleway, sans-serif;
 }
 
@@ -59,6 +67,11 @@ address {
 
 .nav-links a {
   color: var(--txt-nav-n-headings);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .nav-links a:hover,
 .nav-links a:focus {
@@ -67,6 +80,11 @@ address {
 
 .nav-address a {
   color: var(--txt-paragraphs);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .nav-address a:hover,
@@ -77,15 +95,57 @@ address {
 .main-activity h1 {
   background-color: var(--bgc-secondary);
   color: var(--txt-main-inactive-foot-address);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .main-activity-button {
   background-color: var(--bgc-button);
   color: var(--txt-main-inactive-foot-address);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
+
+.advantages h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.advantages p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
 }
 
 .our-team {
   background-color: var(--bgc-our-team);
+}
+
+.our-team-list h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.our-team-list p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
 }
 
 .footer {
@@ -103,6 +163,10 @@ address {
 
 .footer-address {
   color: var(--txt-main-inactive-foot-address);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .footer-address a {
@@ -116,10 +180,29 @@ address {
 
 .filter button {
   color: var(--txt-nav-n-headings);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: inherit;
 }
 
 .filter button:hover,
 .filter button:focus {
   background-color: var(--bgc-button);
   color: var(--txt-main-inactive-foot-address);
+}
+
+.projects-list h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.projects-list p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
